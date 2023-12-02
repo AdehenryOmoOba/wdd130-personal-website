@@ -25,6 +25,8 @@
     --mainBorderColor: var(--mainBorderColor-dark);
     --mainBgColor: var(--mainBgColor-dark);
     --secondaryTextColor: var(--secondaryTextColor-dark);
+    --header--bg-color:rgba(16, 16, 26,0.5);
+    --header--bg-color: rgba(255,255,255,0.5);
 }
 body{
     font-family: 'Readex Pro', sans-serif;
@@ -32,6 +34,30 @@ body{
     line-height: 1.5em;
     color: var(--mainTextColor);
     background-color: var(--mainBgColor);
+}
+/* Header  */
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: var(--bg-color);
+    padding: 2.4rem 14%;
+    transition: 0.3s;
+}
+header ul{
+    display: flex;
+    gap: 5rem;
+    background-color: rgb(50, 38, 38);
+    padding: 1rem 2rem;
+    border-radius: 100rem;
+}
+header ul li{
+    list-style: none;
 }
 p,span,li{
     color: var(--secondaryTextColor);
