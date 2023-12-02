@@ -28,6 +28,23 @@
     --header--bg-color:rgba(16, 16, 26,0.5);
     --header--bg-color: rgba(255,255,255,0.5);
 }
+/* Scroll Bar  */
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+    background-color: var(--bg-color);
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background-color: var(--second-main-color);
+    border-radius: 3rem;
+}
 body{
     font-family: 'Readex Pro', sans-serif;
     font-size: 1.6em;
