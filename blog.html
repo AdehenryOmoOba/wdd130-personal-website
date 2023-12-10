@@ -5,54 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog.css">
     <title>WDD130: Adehenry - Portfolio</title>
 </head>
 <body>
-  <a href="#" class="logo">Adehenry<span>Dev</span></a>
+  <header>
+    <!-- <a href="#" class="logo">Adehenry<span>Dev</span></a>
+    <ul class="navbar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="resume.html">e-Resume</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul> -->
+    <div class="logo">
+      <img src="./images/logo.png" alt="logo">
+    </div>
 
-  <ul class="navbar">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="resume.html">e-Resume</a></li>
-    <li><a href="blog.html">Blog</a></li>
-  </ul>
+    <h1>AdeHenry's Blog</h1>
+    <p>👋 Welcome to my tech blog 🖥️</p>
 
-  <!-- Toggle menu  -->
-  <div class="toggle-menu">
-      <span></span>
-      <span></span>
-      <span></span>
-  </div>
-</header>
+    <div class="header-links">  
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">e-Resume</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+  </header>
+
 
     <main>
         <div class="blog-post">
-            <img src="" alt="post image">
-            <p></p>
+         <small class="date">13-11-2023</small>
+         <div class="title">
+          <p>Getting Started With AWS</p>
+         </div>
+         <div class="content">
+          <p>
+            "Cloud computing" plays a vital role in the creation of software products and services. It's also one of the most highly sought-after skills in the tech industry. In fact, most of the projects on this site will require cloud interaction of some sort—particularly with AWS's serverless products.
+          </p>
+         </div>
         </div>
         <div class="blog-post">
-            <img src="" alt="post image">
-            <p></p>
+         <small class="date">16-11-2023</small>
+         <div class="title">
+          <p>Using AI To Generate Poetry</p>
+         </div>
+         <div class="content">
+          <p>
+            I was recently granted access to the OpenAI GPT-3 Beta, a very powerful language model that can be used to do all sorts of magic like chat bot generation, article summary, and a lot more cool stuff. But the application that really excited me was creative writing (stuff like SEO generation is cool and all, but a also a bit dry for my taste).
+         </div>
         </div>
         <div class="blog-post">
-            <img src="" alt="post image">
-            <p></p>
+         <small class="date">19-11-2023</small>
+         <div class="title">
+          <p>Building a QR Code Micro App</p>
+         </div>
+         <div class="content">
+          <p>
+            Ever since the pandemic started, I've noticed QR codes creeping into my daily life. Venue check-ins, digital menus at restaurants, and online payments. I thought it'd be fun to explore the technology a little bit, so I've built a micro web-app that lets you save messages and view them later using a QR code. Sort of a "Hello World" QR code project. In this post, I'll be sharing how I built this using Python and AWS free tier. You can try out the app itself here. The source code is also available on GitHub.
+          </p>
+         </div>
         </div>
         <div class="blog-post">
-            <img src="" alt="post image">
-            <p></p>
+         <small class="date">05-12-2023</small>
+         <div class="title">
+          <p>Create a Retro Game With PICO-8</p>
+         </div>
+         <div class="content">
+          <p>
+            After watching High Score on Netflix, I was suddenly inspired to develop a retro-style game. I think it was a combination of the aesthetics and nostalgia that motivated me. It turned out to be a pretty fun experience, and something I'd recommend as a weekend project to any developer. With tools like PICO-8 (a NES-like virtual console), it's really easy to get started — even if you're a beginner to programming. In this post, I'll be discussing why you should try your hand at retro-game development, and explain some of the technical limitations you'll be facing.
+          </p>
+         </div>
         </div>
     </main>
 
     <footer>
       <!-- Copyright  -->
-      <div class="copyright" data-observer="copyright">
-        <p>Copyright &copy; 2022, All Rights Reserved. <br> Created by Adelaja Henry A.</p>
+      <div class="copyright">
+        <small>Copyright &copy; 2023, All Rights Reserved. Developed by AdeHenry</small>
       </div>
-      <div>
+      <div class="site-plan">
         <a href="./site-plan.html">Site Plan</a>
       </div>
     </footer>
-<script src="./app.js" type="module"></script>
 </body>
 </html>
